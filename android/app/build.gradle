@@ -6,7 +6,7 @@ if (localPropertiesFile.exists()) {
     }
 }
 
-def flutterRoot = localProperties.getProperty('flutter.sdk').replaceAll("\\", "/")
+def flutterRoot = localProperties.getProperty('flutter.sdk')
 if (flutterRoot == null) {
     throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
 }
@@ -45,7 +45,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile rootProject.file("app/android.keystore")
+            // storeFile rootProject.file("app/android.keystore")
+            // storePassword "abdullah43200"
+            // keyAlias "Abdullahkhan"
+            // keyPassword "abdullah43200"
             storePassword System.getenv("APPCENTER_KEYSTORE_PASSWORD")
             keyAlias System.getenv("APPCENTER_KEY_ALIAS")
             keyPassword System.getenv("APPCENTER_KEY_PASSWORD")

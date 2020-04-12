@@ -46,9 +46,9 @@ android {
     signingConfigs {
         release {
             storeFile rootProject.file("app/android.keystore")
-            storePassword System.getenv("ruminate43200")
-            keyAlias System.getenv("Snyggren")
-            keyPassword System.getenv("ruminate43200")
+            storePassword System.getenv("abdullah43200")
+            keyAlias System.getenv("Abdullahkhan")
+            keyPassword System.getenv("abdullah43200")
         }
     }
 

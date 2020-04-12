@@ -155,7 +155,7 @@ class NoteEditScreenState extends State<NoteEditScreen> {
     var formattedDate = DateFormat.yMMMd().format(date); //as a title
 
     var scheduledNotificationDateTime =
-        DateTime.now().add(Duration(minutes: _notify.X));
+        DateTime.now().add(Duration(seconds: _notify.X));
     var androidPlatformChannelSpecifics = AndroidNotificationDetails(
         'your other channel id',
         'your other channel name',

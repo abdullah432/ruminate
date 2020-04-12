@@ -43,14 +43,14 @@ android {
         multiDexEnabled true
     }
 
-    // signingConfigs {
-    //     release {
-    //         storeFile rootProject.file("app/android.keystore")
-    //         storePassword System.getenv("abdullah43200")
-    //         keyAlias System.getenv("Abdullahkhan")
-    //         keyPassword System.getenv("abdullah43200")
-    //     }
-    // }
+    signingConfigs {
+        release {
+            storeFile rootProject.file("app/android.keystore")
+            storePassword System.getenv("abdullah43200")
+            keyAlias System.getenv("Abdullahkhan")
+            keyPassword System.getenv("abdullah43200")
+        }
+    }
 
     buildTypes {
         release {

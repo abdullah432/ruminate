@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "722027029787",
+    "firebase_url": "https://ruminatebe.firebaseio.com",
+    "project_id": "ruminatebe",
+    "storage_bucket": "ruminatebe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722027029787:android:5dda0e32b94b6673fddfbe",
+        "android_client_info": {
+          "package_name": "se.ezer.ruminate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722027029787-e79rk51l759lql51nnjol80hf3284ebt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.ezer.ruminate",
+            "certificate_hash": "5415f6c46d86cab9a4990650ec47eb953a302289"
+          }
+        },
+        {
+          "client_id": "722027029787-50gp033g6ddimseskai21k3kai3ce258.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzeTvAUSgq6s3qLN_M6WB2LBHmYMS8QMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722027029787-50gp033g6ddimseskai21k3kai3ce258.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

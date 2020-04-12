@@ -13,7 +13,7 @@ cd ..
 git clone -b stable https://github.com/flutter/flutter.git
 export PATH=`pwd`/flutter/bin:$PATH
 
-flutter channel stable
+flutter channel master
 flutter doctor
 flutter build apk --release
 
